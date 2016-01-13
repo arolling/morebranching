@@ -25,27 +25,28 @@ $(document).ready(function() {
     }
     event.preventDefault();
 
-    $("button#moreInfo").click(function() {
-      var type1 = $("select#kingdom").val();
-      var food = $("select#food").val();
+
+  });
+
+  $("button#moreInfo").click(function() {
+    var type1 = $("select#kingdom").val();
+    var food = $("select#food").val();
 
 
-      if (type1 === "bird" && food === "carnivore") {
-          $("p.hideme").hide();
-          $(".penguinInfo").show();
-        } else if (type1 === "bird" && food === "herbivore") {
-          $("p.hideme").hide();
-          $(".snowgooseInfo").show();
-        } else if (type1 === "mammal" && food === "carnivore") {
-          $("p.hideme").hide();
-          $(".bearInfo").show();
-        } else if (type1 === "mammal" && food === "herbivore") {
-          $("p.hideme").hide();
-          $(".elephantInfo").show();
+    if (type1 === "bird" && food === "carnivore") {
+        $("p.hideme").hide();
+        $(".penguinInfo").show();
+      } else if (type1 === "bird" && food === "herbivore") {
+        $("p.hideme").hide();
+        $(".snowgooseInfo").show();
+      } else if (type1 === "mammal" && food === "carnivore") {
+        $("p.hideme").hide();
+        $(".bearInfo").show();
+      } else if (type1 === "mammal" && food === "herbivore") {
+        $("p.hideme").hide();
+        $(".elephantInfo").show();
 
-      };
-
-    });
+    };
 
   });
 
