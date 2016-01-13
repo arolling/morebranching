@@ -37,8 +37,9 @@ $(document).ready(function() {
         $("p.hideme").hide();
         $(".penguinInfo").show();
       } else if (type1 === "bird" && food === "herbivore") {
+
         $("p.hideme").hide();
-        $(".snowgooseInfo").show();
+        $(".snowGooseInfo").show();
       } else if (type1 === "mammal" && food === "carnivore") {
         $("p.hideme").hide();
         $(".bearInfo").show();
