@@ -1,0 +1,17 @@
+.btn {
+  margin-bottom:20px;
+}
+
+img {
+  margin:0 auto;
+  border:1px solid #d1d1d1;
+}
+
+.hideme {
+  display: none;
+
+}
+
+.toggle {
+  display:hidden;
+}
